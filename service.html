@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/fonts/themify-icons/themify-icons.css">
+    <title>Document</title>
+</head>
+<body>
+    <header id="header" class="header">
+        <div class="grid">
+            <div class="header-with-search">
+                <div class="header__logo">
+                    <a href="/" title="CÔNG TY CỔ PHẦN XÂY DỰNG VÀ ĐẦU TƯ THƯƠNG MẠI HOÀNG HÀ">
+                        <img class = "header__logo-img" src="./assets/css/img/logo-text.png" alt="CÔNG TY CỔ PHẦN XÂY DỰNG VÀ ĐẦU TƯ THƯƠNG MẠI HOÀNG HÀ">
+                    </a>
+                </div>
+
+                <div class="header__search">
+                    <div class="header__search-input-wrap">
+                        <input type="text" class="header__search-input" placeholder="Hôm nay bạn cần tìm gì?">
+                        <div class="header__search-history">
+                            <h3 class="header__search-history-heading">Lịch sử tìm kiếm</h3>
+                            <ul class="header__search-history-list">
+                                <li class="header__search-history-item">
+                                    <a href="">Iphone 13</a>
+                                </li>
+                                <li class="header__search-history-item">
+                                    <a href="">Samsung S23</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <button class="header__search-btn">
+                            <i class="header__search-btn-icon ti-search"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="header__order-check">
+                    <a href="" class="header__order-link">
+                        <!-- <i class="header__order-icon fa-solid fa-truck-fast"></i> -->
+                        <i class="ti-truck header__order-icon"></i>
+                        <span class="header__order-text">
+                            Kiểm tra đơn hàng
+                        </span>
+                    </a>
+                </div>
+
+                <div class="header__cart">
+                    <div class="header__cart-wrap">
+                        <!-- <i class="header__cart-icon fa-solid fa-cart-shopping"></i> -->
+                        <i class="ti-shopping-cart header__cart-icon"></i>
+                        <span class="header__cart-notice">2</span>
+                        <!-- No cart : header__cart-list-no-cart -->
+                        <div class="header__cart-list">
+                            <img src="./assets/css/img/no-item.png" alt="" class="header__cart-no-cart-img">
+                            <span class="header__cart-list-no-cart-msg">
+                                Chưa có sản phẩm
+                            </span>
+                            <h4 class="header__cart-heading">Sản phẩm đã thêm</h4>
+                                <ul class="header__cart-list-item">
+                                    <!-- Cart item -->
+                                    <li class="header__cart-item">
+                                        <img src="./assets/css/img/Iphone.webp" alt="" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">iPhone 14 pro max</h5>
+                                                <div class="header__cart-item-price-wrap">
+                                                    <span class="header__cart-item-price">30,150,000đ</span>
+                                                    <span class="header__cart-item-multiply">x</span>
+                                                    <span class="header__cart-item-qnt">1</span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-description">
+                                                    Phân loại: Bạc
+                                                </span>
+                                                <span class="header__cart-item-remove">Xóa</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="header__cart-item">
+                                        <img src="./assets/css/img/samsung.webp" alt="" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">Samsung Galaxy S23 Ultra</h5>
+                                                <div class="header__cart-item-price-wrap">
+                                                    <span class="header__cart-item-price">23,990,000đ</span>
+                                                    <span class="header__cart-item-multiply">x</span>
+                                                    <span class="header__cart-item-qnt">2</span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-description">
+                                                    Phân loại: Kem
+                                                </span>
+                                                <span class="header__cart-item-remove">Xóa</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                        </div> 
+                    </div>
+                </div> 
+            </div>
+            <nav class="header__navbar">
+                <ul class="header__navbar-list">
+                    <li class="header__navbar-item header__navbar-item-main">
+                        <a href="./index.html" class="header__navbar-item-link">
+                            <!-- <i class="fa-solid fa-mobile-screen-button header__navbar-icon"></i> -->
+                            <i class="ti-mobile header__navbar-icon"></i>
+                            <span>Điện thoại</span>
+                        </a>
+                        <div class="header__subnav">
+                            <ul class="header__subnav-list">
+                                <li>
+                                    <a href="" class="header__navbar-item-producer">Nhà sản xuất</a>
+                                </li>
+                                <li>
+                                    <a href="" class="header__subnav-item">Apple</a>
+                                </li>
+                                <li>
+                                    <a href="" class="header__subnav-item">Samsung</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </li>
+                    <li class="header__navbar-item">
+                        <a href="./service.html" class="header__navbar-item-link">
+                            <!-- <i class="fa-sharp fa-solid fa-screwdriver-wrench header__navbar-icon"></i> -->
+                            <i class="ti-hummer header__navbar-icon"></i>
+                            <span>Trung tâm bảo hành</span>
+                        </a>
+                    </li>
+                    <li class="header__navbar-item">
+                        <a href="./news.html" class="header__navbar-item-link">
+                            <!-- <i class="fa-solid fa-newspaper header__navbar-icon"></i> -->
+                            <i class="ti-comment-alt header__navbar-icon"></i>
+                            <span>Tin tức</span>
+                        </a>
+                    </li>
+                    <li class="header__navbar-item">
+                        <a href="./introduce.html" class="header__navbar-item-link">
+                            <!-- <i class="fa-regular fa-address-card header__navbar-icon"></i> -->
+                            <i class="ti-info-alt header__navbar-icon"></i>
+                            <span>Giới thiệu</span>
+                        </a>
+                    </li>
+                    <li class="header__navbar-item">
+                        <div class="header__navbar-item-link js-login">
+                            <!-- <i class="fa-solid fa-right-to-bracket header__navbar-icon"></i> -->
+                            <i class="ti-user header__navbar-icon"></i>
+                            <span>Đăng nhập</span>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <!-- Trung tam bao hanh -->
+    <div class="grid">
+        <div class="cart-guarantee">
+            <div class="header-guarantee">
+                <div class="header-back">
+                    <a href="./index.html" class="header-back-link">
+                       <i class="ti-angle-left header-back-icon"></i>
+                       <span class="header-back-text">Về trang chủ</span>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="list-shops">
+                <div class="list-shops-center">
+                    <div class="check-warranty">
+                        <img src="./assets/css/img/care-services.png" alt="" class="check-warranty-img">
+                        <h3 class="check-warranty-title">Tra cứu bảo hành sản phẩm</h3>
+                        <div class="check-warranty-search">
+                            <form action="" id="warranty-check">
+                                <div class="warranty-check-boder">
+                                    <input type="text" title = "Mã IMEI" class="warranty-check-input" placeholder="Nhập IMEI sản phẩm hoặc mã phiếu bảo hành cần tra cứu">
+                                    <button class="header__search-btn">
+                                        <i class="header__search-btn-icon ti-search"></i>
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                </div>
+            </div>
+
+            <div class="list-supplier">
+                <h1 class="list-supplier-title">
+                    Hệ thống bảo hành điện thoại toàn quốc
+                </h1>
+                <div class="list-supplier-nav">
+                    <i class="ti-location-pin list-supplier-nav-icon"></i>
+                    <span class="list-supplier-nav-text">
+                        Lựa chọn hãng điện thoại & nhà phân phối
+                    </span>
+
+                    <div class="list-supplier-sub-nav">
+                        <ul class="list-supplier-sub-nav-list">
+                            <li class="list-supplier-sub-nav-item">
+                                <a href="" class="list-supplier-sub-nav-item-link">Apple</a>
+                            </li>
+                            <li class="list-supplier-sub-nav-item">
+                                <a href="" class="list-supplier-sub-nav-item-link">Sony</a>
+                            </li>
+                            <li class="list-supplier-sub-nav-item">
+                                <a href="" class="list-supplier-sub-nav-item-link">Xiaomi</a>
+                            </li>
+                            <li class="list-supplier-sub-nav-item">
+                                <a href="" class="list-supplier-sub-nav-item-link">Samsung</a>
+                            </li>
+                            <li class="list-supplier-sub-nav-item">
+                                <a href="" class="list-supplier-sub-nav-item-link">Lenovo</a>
+                            </li>
+                            <li class="list-supplier-sub-nav-item">
+                                <a href="" class="list-supplier-sub-nav-item-link">ZTE</a>
+                            </li>
+                            <li class="list-supplier-sub-nav-item">
+                                <a href="" class="list-supplier-sub-nav-item-link">Oppo</a>
+                            </li>
+                            <li class="list-supplier-sub-nav-item">
+                                <a href="" class="list-supplier-sub-nav-item-link">Asus</a>
+                            </li>
+                            <li class="list-supplier-sub-nav-item">
+                                <a href="" class="list-supplier-sub-nav-item-link">LG</a>
+                            </li>
+                            <li class="list-supplier-sub-nav-item">
+                                <a href="" class="list-supplier-sub-nav-item-link">HTC</a>
+                            </li>
+                            <li class="list-supplier-sub-nav-item">
+                                <a href="" class="list-supplier-sub-nav-item-link">Huawei</a>
+                            </li>
+                            <li class="list-supplier-sub-nav-item">
+                                <a href="" class="list-supplier-sub-nav-item-link">Vivo</a>
+                            </li>
+                            <li class="list-supplier-sub-nav-item">
+                                <a href="" class="list-supplier-sub-nav-item-link">Wiko</a>
+                            </li>
+                            <li class="list-supplier-sub-nav-item">
+                                <a href="" class="list-supplier-sub-nav-item-link">Coolpad</a>
+                            </li>
+                            <li class="list-supplier-sub-nav-item">
+                                <a href="" class="list-supplier-sub-nav-item-link">BlackBerry</a>
+                            </li>
+                            <li class="list-supplier-sub-nav-item">
+                                <a href="" class="list-supplier-sub-nav-item-link">Nokia</a>
+                            </li>
+                            <li class="list-supplier-sub-nav-item">
+                                <a href="" class="list-supplier-sub-nav-item-link">Motorola</a>
+                            </li>
+                            <li class="list-supplier-sub-nav-item">
+                                <a href="" class="list-supplier-sub-nav-item-link">Meizu</a>
+                            </li>
+                            <li class="list-supplier-sub-nav-item">
+                                <a href="" class="list-supplier-sub-nav-item-link">Phillips</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="grid">
+            <div class="grid__row footer-contain">
+                <div class="grid__column-2-4">
+                    <h3 class="footer__heading">Hỗ trợ - Dịch Vụ</h3>
+                    <ul class="footer__list">
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Mua hàng trả góp</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Hướng dẫn đặt hàng và thanh toán</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Tra cứu đơn hàng</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Chính sách bảo hành</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Phạm vi, điều khoản và gói bảo hành mở rộng</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Chính sách bảo mật</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Chính sách giải quyết khiếu nại</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Điều khoản mua bán hàng hóa</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Câu hỏi thường gặp</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="grid__column-2-4">
+                    <h3 class="footer__heading">Thông tin liên hệ</h3>
+                    <ul class="footer__list">
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Bán hàng Online</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Chăm sóc Khách Hàng</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Hỗ trợ Kỹ thuật</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Hỗ trợ Bảo hành & Sửa chữa</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Liên hệ khối văn phòng</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Trung tâm bảo hành</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="grid__column-2-4">
+                    <h3 class="footer__heading">Hệ thống 124 siêu thị trên toàn quốc</h3>
+                    <ul class="footer__list">
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Danh sách 124 siêu thị trên toàn quốc</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link-hotline">1900.2091</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="grid__column-2-4">
+                    <h3 class="footer__heading">Thanh toán miễn phí</h3>
+                    <ul class="footer__list-logo">
+                        <li class="footer-item-logo">
+                            <img src="./assets/css/img/logo-visa.png" class="footer-item-logo-img" alt="">
+                        </li>
+                        <li class="footer-item-logo">
+                            <img src="./assets/css/img/logo-master.png" class="footer-item-logo-img" alt="">
+                        </li>
+                        <li class="footer-item-logo">
+                            <img src="./assets/css/img/logo-jcb.png" class="footer-item-logo-img" alt="">
+                        </li>
+                        <li class="footer-item-logo">
+                            <img src="./assets/css/img/logo-samsungpay.png" class="footer-item-logo-img" alt="">
+                        </li>
+                        <li class="footer-item-logo">
+                            <img src="./assets/css/img/logo-atm.png" class="footer-item-logo-img" alt="">
+                        </li>
+                        <li class="footer-item-logo">
+                            <img src="./assets/css/img/logo-vnpay.png" class="footer-item-logo-img" alt="">
+                        </li>
+                    </ul>
+                </div>
+                <div class="grid__column-2-4">
+                    <h3 class="footer__heading">Thanh toán miễn phí</h3>
+                    <ul class="footer__list-logo">
+                        <li class="footer-item-logo">
+                            <img src="./assets/css/img/nhattin.jpg" class="footer-item-logo-img" alt="">
+                        </li>
+                        <li class="footer-item-logo">
+                            <img src="./assets/css/img/vnpost.jpg" class="footer-item-logo-img" alt="">
+                        </li>
+                        <li class="footer-item-logo">
+                            <img src="./assets/css/img/logo-bct.png" class="footer-item-logo-img" alt="">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="grid__row footer__bottom">
+                <p class="footer__text">
+                    © 2020. CÔNG TY CỔ PHẦN XÂY DỰNG VÀ ĐẦU TƯ THƯƠNG MẠI HOÀNG HÀ. MST: 0106713191. (Đăng ký lần đầu: 
+                    Ngày 15 tháng 12 năm 2014, Đăng ký thay đổi ngày 24/11/2022)
+                </p>
+                <p class="footer__text">
+                    GP số 426/GP-TTĐT do sở TTTT Hà Nội cấp ngày 22/01/2021
+                </p>
+                <p class="footer__text">
+                    Địa chỉ: Số 89 Đường Tam Trinh, Phường Mai Động, Quận Hoàng Mai, Thành Phố Hà Nội, Việt Nam. Điện thoại: 1900.2091. 
+                    Chịu trách nhiệm nội dung: Hoàng Ngọc Chiến.
+                </p>
+            </div>
+            <div class="nav-social">
+                <ul class="social__list">
+                    <li class="social__item">
+                        <a href="" class="social__item-link social__item-link-facebook">
+                            <i class="ti-facebook social__item-icon"></i>
+                        </a>
+                    </li>
+                    <li class="social__item">
+                        <a href="" class="social__item-link social__item-link-youtube">
+                            <i class="ti-youtube social__item-icon"></i>
+                        </a>
+                    </li>
+                    <li class="social__item">
+                        <a href="" class="social__item-link social__item-link-instagram">
+                            <i class="ti-instagram social__item-icon"></i>
+                        </a>
+                    </li>
+                    <li class="social__item">
+                        <a href="" class="social__item-link social__item-link-twitter">
+                            <i class="ti-twitter fa-tiktok social__item-icon"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="back-to-top">
+                <a href="#header" class="back-to-top__link">
+                    <i class="ti-angle-up back-to-top-icon"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

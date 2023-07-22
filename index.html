@@ -1,0 +1,1168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoàng Hà Mobile</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./main.js">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.4.0-web/css/all.min.css">
+    <link rel="stylesheet" href="./assets/fonts/themify-icons/themify-icons.css">
+</head>
+<body>
+    <div class="app">
+        <header id="header" class="header">
+            <div class="grid">
+                <div class="header-with-search">
+                    <div class="header__logo">
+                        <a href="/" title="CÔNG TY CỔ PHẦN XÂY DỰNG VÀ ĐẦU TƯ THƯƠNG MẠI HOÀNG HÀ">
+                            <img class = "header__logo-img" src="./assets/css/img/logo-text.png" alt="CÔNG TY CỔ PHẦN XÂY DỰNG VÀ ĐẦU TƯ THƯƠNG MẠI HOÀNG HÀ">
+                        </a>
+                    </div>
+    
+                    <div class="header__search">
+                        <div class="header__search-input-wrap">
+                            <input type="text" class="header__search-input" placeholder="Hôm nay bạn cần tìm gì?">
+                            <div class="header__search-history">
+                                <h3 class="header__search-history-heading">Lịch sử tìm kiếm</h3>
+                                <ul class="header__search-history-list">
+                                    <li class="header__search-history-item">
+                                        <a href="">Iphone 13</a>
+                                    </li>
+                                    <li class="header__search-history-item">
+                                        <a href="">Samsung S23</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <button class="header__search-btn">
+                                <i class="header__search-btn-icon ti-search"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="header__order-check">
+                        <a href="" class="header__order-link">
+                            <!-- <i class="header__order-icon fa-solid fa-truck-fast"></i> -->
+                            <i class="ti-truck header__order-icon"></i>
+                            <span class="header__order-text">
+                                Kiểm tra đơn hàng
+                            </span>
+                        </a>
+                    </div>
+    
+                    <div class="header__cart">
+                        <div class="header__cart-wrap">
+                            <!-- <i class="header__cart-icon fa-solid fa-cart-shopping"></i> -->
+                            <i class="ti-shopping-cart header__cart-icon"></i>
+                            <span class="header__cart-notice">2</span>
+                            <!-- No cart : header__cart-list-no-cart -->
+                            <div class="header__cart-list">
+                                <img src="./assets/css/img/no-item.png" alt="" class="header__cart-no-cart-img">
+                                <span class="header__cart-list-no-cart-msg">
+                                    Chưa có sản phẩm
+                                </span>
+                                <h4 class="header__cart-heading">Sản phẩm đã thêm</h4>
+                                    <ul class="header__cart-list-item">
+                                        <!-- Cart item -->
+                                        <li class="header__cart-item">
+                                            <img src="./assets/css/img/Iphone.webp" alt="" class="header__cart-img">
+                                            <div class="header__cart-item-info">
+                                                <div class="header__cart-item-head">
+                                                    <h5 class="header__cart-item-name">iPhone 14 pro max</h5>
+                                                    <div class="header__cart-item-price-wrap">
+                                                        <span class="header__cart-item-price">30,150,000đ</span>
+                                                        <span class="header__cart-item-multiply">x</span>
+                                                        <span class="header__cart-item-qnt">1</span>
+                                                    </div>
+                                                </div>
+                                                <div class="header__cart-item-body">
+                                                    <span class="header__cart-item-description">
+                                                        Phân loại: Bạc
+                                                    </span>
+                                                    <span class="header__cart-item-remove">Xóa</span>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="header__cart-item">
+                                            <img src="./assets/css/img/samsung.webp" alt="" class="header__cart-img">
+                                            <div class="header__cart-item-info">
+                                                <div class="header__cart-item-head">
+                                                    <h5 class="header__cart-item-name">Samsung Galaxy S23 Ultra</h5>
+                                                    <div class="header__cart-item-price-wrap">
+                                                        <span class="header__cart-item-price">23,990,000đ</span>
+                                                        <span class="header__cart-item-multiply">x</span>
+                                                        <span class="header__cart-item-qnt">2</span>
+                                                    </div>
+                                                </div>
+                                                <div class="header__cart-item-body">
+                                                    <span class="header__cart-item-description">
+                                                        Phân loại: Kem
+                                                    </span>
+                                                    <span class="header__cart-item-remove">Xóa</span>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                            </div> 
+                        </div>
+                    </div> 
+                </div>
+                <nav class="header__navbar">
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item header__navbar-item-main">
+                            <a href="" class="header__navbar-item-link">
+                                <!-- <i class="fa-solid fa-mobile-screen-button header__navbar-icon"></i> -->
+                                <i class="ti-mobile header__navbar-icon"></i>
+                                <span>Điện thoại</span>
+                            </a>
+                            <div class="header__subnav">
+                                <ul class="header__subnav-list">
+                                    <li>
+                                        <a href="" class="header__navbar-item-producer">Nhà sản xuất</a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="header__subnav-item">Apple</a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="header__subnav-item">Samsung</a>
+                                    </li>
+                                </ul>
+                            </div>
+    
+                        </li>
+                        <li class="header__navbar-item">
+                            <a href="./service.html" class="header__navbar-item-link">
+                                <!-- <i class="fa-sharp fa-solid fa-screwdriver-wrench header__navbar-icon"></i> -->
+                                <i class="ti-hummer header__navbar-icon"></i>
+                                <span>Trung tâm bảo hành</span>
+                            </a>
+                        </li>
+                        <li class="header__navbar-item">
+                            <a href="./news.html" class="header__navbar-item-link">
+                                <!-- <i class="fa-solid fa-newspaper header__navbar-icon"></i> -->
+                                <i class="ti-comment-alt header__navbar-icon"></i>
+                                <span>Tin tức</span>
+                            </a>
+                        </li>
+                        <li class="header__navbar-item">
+                            <a href="./introduce.html" class="header__navbar-item-link">
+                                <!-- <i class="fa-regular fa-address-card header__navbar-icon"></i> -->
+                                <i class="ti-info-alt header__navbar-icon"></i>
+                                <span>Giới thiệu</span>
+                            </a>
+                        </li>
+                        <li class="header__navbar-item">
+                            <div class="header__navbar-item-link js-login">
+                                <!-- <i class="fa-solid fa-right-to-bracket header__navbar-icon"></i> -->
+                                <i class="ti-user header__navbar-icon"></i>
+                                <span>Đăng nhập</span>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <!-- Slider -->
+        <div class="slider top-slider">
+            <div class="direction-arrow">
+                <i class="fa-solid fa-chevron-left top-slider-icon-left" onclick="prev()"></i>
+                <i class="fa-solid fa-chevron-right top-slider-icon-right" onclick="next()"></i>
+            </div>
+            <div class="next-slides">
+                <img src="./assets/css/img/slider apple.png" alt="" class="top__slider-img slider__img">
+                <img src="./assets/css/img/dai-le-gia-sieu-me.png" alt="" class="top__slider-img slider__img">
+                <img src="./assets/css/img/slider samsung.jpg" alt="" class="top__slider-img slider__img">
+                <img src="./assets/css/img/slider thu iphone.jpg" alt="" class="top__slider-img slider__img">
+                <img src="./assets/css/img/slider samsung tab.jpg" alt="" class="top__slider-img slider__img">
+                <img src="./assets/css/img/slider xiaomi.png" alt="" class="top__slider-img slider__img">
+                <img src="./assets/css/img/sldier laptop.jpg" alt="" class="top__slider-img slider__img">
+                <img src="./assets/css/img/slider tai nghe.png" alt="" class="top__slider-img slider__img">
+            </div>
+        </div>
+
+        <div class="app__container">
+            <div class="grid">
+                <div class="grid__row app__content">
+                    <div class="grid__column-2">
+                        <nav class="category">
+                            <h3 class="category__heading">
+                                <!-- <i class="category__heading-icon fa-solid fa-list"></i> -->
+                                <i class="ti-menu category__heading-icon"></i>
+                                Danh mục
+                            </h3>
+                            <ul class="category-list">
+                                <li class="category-item">
+                                    <a href="#" class="category-item__link">Iphone</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="#" class="category-item__link">Samsung</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="grid__column-10">
+                        <div class="home-filter">
+                            <span class="home-filter__label">Lọc danh sách:</span>
+                            <div class="select-input">
+                                <div class="select-input__price">
+                                    <span class="select-input__text">Giá</span>
+                                    <!-- <i class="fa-solid fa-chevron-down select-input__icon"></i> -->
+                                    <i class="ti-angle-down select-input__icon"></i>
+                                    <ul class="select-input__list-price">
+                                        <li class="select-input__item">
+                                            <a href="" class="select-input__link">10 đến 15 triệu</a>
+                                        </li>
+                                        <li class="select-input__item">
+                                            <a href="" class="select-input__link">15 đến 20 triệu</a>
+                                        </li>
+                                        <li class="select-input__item">
+                                            <a href="" class="select-input__link">20 đến 50 triệu</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="select-input__option">
+                                    <span class="select-input__text">RAM</span>
+                                    <!-- <i class="fa-solid fa-chevron-down select-input__icon"></i> -->
+                                    <i class="ti-angle-down select-input__icon"></i>
+                                    <ul class="select-input__list-option">
+                                        <div class="select-input-wrap">
+                                            <li class="select-input__item">
+                                                <a href="" class="select-input__link">4GB</a>
+                                            </li>
+                                            <li class="select-input__item">
+                                                <a href="" class="select-input__link">6GB</a>
+                                            </li>
+                                            <li class="select-input__item">
+                                                <a href="" class="select-input__link">8GB</a>
+                                            </li>
+
+                                        </div>
+                                    </ul>
+                                </div>
+                                <div class="select-input__sort">
+                                    <span class="select-input__text">Sắp xếp</span>
+                                    <!-- <i class="fa-solid fa-chevron-down select-input__icon"></i> -->
+                                    <i class="ti-angle-down select-input__icon"></i>
+                                    <!-- List options -->
+                                    <ul class="select-input__list-sort">
+                                        <li class="select-input__item">
+                                            <a href="" class="select-input__link">Giá thấp đến cao</a>
+                                        </li>
+                                        <li class="select-input__item">
+                                            <a href="" class="select-input__link">Giá cao đến thấp</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="home-product">
+                            <div class="grid__row">
+                                <div class="grid__column-2-4">
+                                    <a href="./product-detail.html" class="home-product-item-link">
+                                        <div class="home-product-item">
+                                            <div class="home-product-item__sticker">
+                                                <span><img src="./assets/css/img/apple.png" title="Sản phẩm HOT"></span>
+                                            </div>
+                                            <div class="home-product-item__img" style="background-image: url(./assets/css/img/iphone\ 14\ pro\ max.webp);"></div>
+                                            <h4 class="home-product-item__name">
+                                                iPhone 14 Pro Max (128GB) -
+                                                Chính hãng VN/A
+                                            </h4>
+                                            <div class="home-product-item__price">
+                                                <span class="home-product-item__price-current">27.290.000đ</span>
+                                                <span class="home-product-item__price-old">28.990.000đ</span>
+                                            </div>
+                                            <div class="home-product-item__note">
+                                                <span class="home-product-item__note-bag">KM</span>
+                                                <span class="home-product-item__note-title">
+                                                    Giảm tới 300.000đ khi thanh toán qua VNAY (Áp dụng từ 1/4 - 30/4)
+                                                </span>
+                                                <span class="home-product-item__note-txt">
+                                                    và 4 KM KHÁC
+                                                </span>
+                                            </div>
+                                            <div class="home-product__note-detail">
+                                                <a href="./product-detail.html" class="home-product__note-detail-link">
+                                                    <ul class="home-product__note-list">
+                                                        <li class="home-product__note-item">
+                                                            <span class="home-product-item__note-bag">KM</span>
+                                                            <span class="home-product__note-item-txt"></span>
+                                                            Thanh toán qua Moca tặng ngay đế sạc trị giá 320.000đ (Cho hóa đơn có tổng giá trị từ 18 Triệu) - Áp dụng từ 01/04
+                                                        </li>
+                                                        <li class="home-product__note-item">
+                                                            <span class="home-product-item__note-bag">KM</span>
+                                                            Giảm thêm tới 800.000đ khi mở thẻ tín dụng TPBank EVO
+                                                        </li>
+                                                        <li class="home-product__note-item">
+                                                            <span class="home-product-item__note-bag">KM</span>
+                                                            Trả góp qua Homepaylater giảm thêm tới 500.000đ, duyệt nhanh chỉ 30s
+                                                        </li>
+                                                        <li class="home-product__note-item">
+                                                            <span class="home-product-item__note-bag">KM</span>
+                                                            Mở thẻ tín dụng VPBank nhận ưu đãi tới 1.500.000đ
+                                                        </li>
+                                                    </ul>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <a href="" class="home-product-item-link">
+                                        <div class="home-product-item">
+                                            <div class="home-product-item__sticker">
+                                                <span><img src="./assets/css/img/apple.png" title="Sản phẩm HOT"></span>
+                                            </div>
+                                            <div class="home-product-item__img" style="background-image: url(./assets/css/img/apple-iphone-11.webp);"></div>
+                                            <h4 class="home-product-item__name">
+                                                iPhone 11 (64GB) -
+                                                Chính hãng VN/A
+                                            </h4>
+                                            <div class="home-product-item__price">
+                                                <span class="home-product-item__price-current">10.150.000đ</span>
+                                                <span class="home-product-item__price-old">19.990.000đ</span>
+                                            </div>
+                                            <div class="home-product-item__note">
+                                                <span class="home-product-item__note-bag">KM</span>
+                                                <span class="home-product-item__note-title">
+                                                    Giảm tới 300.000đ khi thanh toán qua VNAY (Áp dụng từ 1/4 - 30/4)
+                                                </span>
+                                                <span class="home-product-item__note-txt">
+                                                    và 4 KM KHÁC
+                                                </span>
+                                            </div>
+                                            <div class="home-product__note-detail">
+                                                <a href="" class="home-product__note-detail-link">
+                                                    <ul class="home-product__note-list">
+                                                        <li class="home-product__note-item">
+                                                            <span class="home-product-item__note-bag">KM</span>
+                                                            <span class="home-product__note-item-txt"></span>
+                                                            Thanh toán qua Moca tặng ngay đế sạc trị giá 320.000đ (Cho hóa đơn có tổng giá trị từ 18 Triệu) - Áp dụng từ 01/04
+                                                        </li>
+                                                        <li class="home-product__note-item">
+                                                            <span class="home-product-item__note-bag">KM</span>
+                                                            Giảm thêm tới 800.000đ khi mở thẻ tín dụng TPBank EVO
+                                                        </li>
+                                                        <li class="home-product__note-item">
+                                                            <span class="home-product-item__note-bag">KM</span>
+                                                            Trả góp qua Homepaylater giảm thêm tới 500.000đ, duyệt nhanh chỉ 30s
+                                                        </li>
+                                                        <li class="home-product__note-item">
+                                                            <span class="home-product-item__note-bag">KM</span>
+                                                            Mở thẻ tín dụng VPBank nhận ưu đãi tới 1.500.000đ
+                                                        </li>
+                                                    </ul>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <a href="" class="home-product-item-link">
+                                        <div class="home-product-item">
+                                            <div class="home-product-item__sticker">
+                                                <span><img src="./assets/css/img/apple.png" title="Sản phẩm HOT"></span>
+                                            </div>
+                                            <div class="home-product-item__img" style="background-image: url(./assets/css/img/apple-iphone-12.webp);"></div>
+                                            <h4 class="home-product-item__name">
+                                                iPhone 12 (64GB) -
+                                                Chính hãng VN/A
+                                            </h4>
+                                            <div class="home-product-item__price">
+                                                <span class="home-product-item__price-current">14.350.000đ</span>
+                                                <span class="home-product-item__price-old">24.990.000đ</span>
+                                            </div>
+                                            <div class="home-product-item__note">
+                                                <span class="home-product-item__note-bag">KM</span>
+                                                <span class="home-product-item__note-title">
+                                                    Giảm tới 300.000đ khi thanh toán qua VNAY (Áp dụng từ 1/4 - 30/4)
+                                                </span>
+                                                <span class="home-product-item__note-txt">
+                                                    và 4 KM KHÁC
+                                                </span>
+                                            </div>
+                                            <div class="home-product__note-detail">
+                                                <a href="" class="home-product__note-detail-link">
+                                                    <ul class="home-product__note-list">
+                                                        <li class="home-product__note-item">
+                                                            <span class="home-product-item__note-bag">KM</span>
+                                                            <span class="home-product__note-item-txt"></span>
+                                                            Thanh toán qua Moca tặng ngay đế sạc trị giá 320.000đ (Cho hóa đơn có tổng giá trị từ 18 Triệu) - Áp dụng từ 01/04
+                                                        </li>
+                                                        <li class="home-product__note-item">
+                                                            <span class="home-product-item__note-bag">KM</span>
+                                                            Giảm thêm tới 800.000đ khi mở thẻ tín dụng TPBank EVO
+                                                        </li>
+                                                        <li class="home-product__note-item">
+                                                            <span class="home-product-item__note-bag">KM</span>
+                                                            Trả góp qua Homepaylater giảm thêm tới 500.000đ, duyệt nhanh chỉ 30s
+                                                        </li>
+                                                        <li class="home-product__note-item">
+                                                            <span class="home-product-item__note-bag">KM</span>
+                                                            Mở thẻ tín dụng VPBank nhận ưu đãi tới 1.500.000đ
+                                                        </li>
+                                                    </ul>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <a href="" class="home-product-item-link">
+                                        <div class="home-product-item">
+                                            <div class="home-product-item__sticker">
+                                                <span><img src="./assets/css/img/apple.png" title="Sản phẩm HOT"></span>
+                                            </div>
+                                            <div class="home-product-item__img" style="background-image: url(./assets/css/img/apple-iphone-13.webp);"></div>
+                                            <h4 class="home-product-item__name">
+                                                iPhone 13 (128GB) -
+                                                Chính hãng VN/A
+                                            </h4>
+                                            <div class="home-product-item__price">
+                                                <span class="home-product-item__price-current">16.590.000đ</span>
+                                                <span class="home-product-item__price-old">23.990.000đ</span>
+                                            </div>
+                                            <div class="home-product-item__note">
+                                                <span class="home-product-item__note-bag">KM</span>
+                                                <span class="home-product-item__note-title">
+                                                    Giảm tới 300.000đ khi thanh toán qua VNAY (Áp dụng từ 1/4 - 30/4)
+                                                </span>
+                                                <span class="home-product-item__note-txt">
+                                                    và 4 KM KHÁC
+                                                </span>
+                                            </div>
+                                            <div class="home-product__note-detail">
+                                                <a href="" class="home-product__note-detail-link">
+                                                    <ul class="home-product__note-list">
+                                                        <li class="home-product__note-item">
+                                                            <span class="home-product-item__note-bag">KM</span>
+                                                            <span class="home-product__note-item-txt"></span>
+                                                            Thanh toán qua Moca tặng ngay đế sạc trị giá 320.000đ (Cho hóa đơn có tổng giá trị từ 18 Triệu) - Áp dụng từ 01/04
+                                                        </li>
+                                                        <li class="home-product__note-item">
+                                                            <span class="home-product-item__note-bag">KM</span>
+                                                            Giảm thêm tới 800.000đ khi mở thẻ tín dụng TPBank EVO
+                                                        </li>
+                                                        <li class="home-product__note-item">
+                                                            <span class="home-product-item__note-bag">KM</span>
+                                                            Trả góp qua Homepaylater giảm thêm tới 500.000đ, duyệt nhanh chỉ 30s
+                                                        </li>
+                                                        <li class="home-product__note-item">
+                                                            <span class="home-product-item__note-bag">KM</span>
+                                                            Mở thẻ tín dụng VPBank nhận ưu đãi tới 1.500.000đ
+                                                        </li>
+                                                    </ul>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <a href="" class="home-product-item-link">
+                                        <div class="home-product-item">
+                                            <div class="home-product-item__sticker">
+                                                <span><img src="./assets/css/img/apple.png" title="Sản phẩm HOT"></span>
+                                            </div>
+                                            <div class="home-product-item__img" style="background-image: url(./assets/css/img/apple-iphone-14.webp);"></div>
+                                            <h4 class="home-product-item__name">
+                                                iPhone 14 (128GB) -
+                                                Chính hãng VN/A
+                                            </h4>
+                                            <div class="home-product-item__price">
+                                                <span class="home-product-item__price-current">27.290.000đ</span>
+                                                <span class="home-product-item__price-old">28.990.000đ</span>
+                                            </div>
+                                            <div class="home-product-item__note">
+                                                <span class="home-product-item__note-bag">KM</span>
+                                                <span class="home-product-item__note-title">
+                                                    Giảm tới 300.000đ khi thanh toán qua VNAY (Áp dụng từ 1/4 - 30/4)
+                                                </span>
+                                                <span class="home-product-item__note-txt">
+                                                    và 4 KM KHÁC
+                                                </span>
+                                            </div>
+                                            <div class="home-product__note-detail">
+                                                <a href="" class="home-product__note-detail-link">
+                                                    <ul class="home-product__note-list">
+                                                        <li class="home-product__note-item">
+                                                            <span class="home-product-item__note-bag">KM</span>
+                                                            <span class="home-product__note-item-txt"></span>
+                                                            Thanh toán qua Moca tặng ngay đế sạc trị giá 320.000đ (Cho hóa đơn có tổng giá trị từ 18 Triệu) - Áp dụng từ 01/04
+                                                        </li>
+                                                        <li class="home-product__note-item">
+                                                            <span class="home-product-item__note-bag">KM</span>
+                                                            Giảm thêm tới 800.000đ khi mở thẻ tín dụng TPBank EVO
+                                                        </li>
+                                                        <li class="home-product__note-item">
+                                                            <span class="home-product-item__note-bag">KM</span>
+                                                            Trả góp qua Homepaylater giảm thêm tới 500.000đ, duyệt nhanh chỉ 30s
+                                                        </li>
+                                                        <li class="home-product__note-item">
+                                                            <span class="home-product-item__note-bag">KM</span>
+                                                            Mở thẻ tín dụng VPBank nhận ưu đãi tới 1.500.000đ
+                                                        </li>
+                                                    </ul>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <a href="" class="home-product-item-link">
+                                        <div class="home-product-item">
+                                            <div class="home-product-item__sticker">
+                                                <span><img src="./assets/css/img/hot.png" title="Sản phẩm HOT"></span>
+                                            </div>
+                                            <div class="home-product-item__img" style="background-image: url(./assets/css/img/samsung-s22-plus.webp);"></div>
+                                            <h4 class="home-product-item__name">
+                                                Samsung Galaxy S22 Plus 8GB/128GB -
+                                                Chính hãng
+                                            </h4>
+                                            <div class="home-product-item__price">
+                                                <span class="home-product-item__price-current">16.990.000đ</span>
+                                                <span class="home-product-item__price-old">25.990.000đ</span>
+                                            </div>
+                                            <div class="home-product-item__note">
+                                                <span class="home-product-item__note-bag">KM</span>
+                                                <span class="home-product-item__note-title">
+                                                    Giảm tới 300.000đ khi thanh toán qua VNAY (Áp dụng từ 1/4 - 30/4)
+                                                </span>
+                                                <span class="home-product-item__note-txt">
+                                                    và 4 KM KHÁC
+                                                </span>
+                                            </div>
+                                            <div class="home-product__note-detail">
+                                                <a href="" class="home-product__note-detail-link">
+                                                    <ul class="home-product__note-list">
+                                                        <li class="home-product__note-item">
+                                                            <span class="home-product-item__note-bag">KM</span>
+                                                            <span class="home-product__note-item-txt"></span>
+                                                            Thanh toán qua Moca tặng ngay đế sạc trị giá 320.000đ (Cho hóa đơn có tổng giá trị từ 18 Triệu) - Áp dụng từ 01/04
+                                                        </li>
+                                                        <li class="home-product__note-item">
+                                                            <span class="home-product-item__note-bag">KM</span>
+                                                            Giảm thêm tới 800.000đ khi mở thẻ tín dụng TPBank EVO
+                                                        </li>
+                                                        <li class="home-product__note-item">
+                                                            <span class="home-product-item__note-bag">KM</span>
+                                                            Trả góp qua Homepaylater giảm thêm tới 500.000đ, duyệt nhanh chỉ 30s
+                                                        </li>
+                                                        <li class="home-product__note-item">
+                                                            <span class="home-product-item__note-bag">KM</span>
+                                                            Mở thẻ tín dụng VPBank nhận ưu đãi tới 1.500.000đ
+                                                        </li>
+                                                    </ul>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <a href="" class="home-product-item-link">
+                                        <div class="home-product-item">
+                                            <div class="home-product-item__sticker">
+                                                <span><img src="./assets/css/img/hot.png" title="Sản phẩm HOT"></span>
+                                            </div>
+                                            <div class="home-product-item__img" style="background-image: url(./assets/css/img/samsung-zflip.webp);"></div>
+                                            <h4 class="home-product-item__name">
+                                                Samsung Galaxy Z Flip4 - 128GB -
+                                                Chính hãng
+                                            </h4>
+                                            <div class="home-product-item__price">
+                                                <span class="home-product-item__price-current">17.290.000đ</span>
+                                                <span class="home-product-item__price-old">23.990.000đ</span>
+                                            </div>
+                                            <div class="home-product-item__note">
+                                                <span class="home-product-item__note-bag">KM</span>
+                                                <span class="home-product-item__note-title">
+                                                    Giảm tới 300.000đ khi thanh toán qua VNAY (Áp dụng từ 1/4 - 30/4)
+                                                </span>
+                                                <span class="home-product-item__note-txt">
+                                                    và 4 KM KHÁC
+                                                </span>
+                                            </div>
+                                            <div class="home-product__note-detail">
+                                                <a href="" class="home-product__note-detail-link">
+                                                    <ul class="home-product__note-list">
+                                                        <li class="home-product__note-item">
+                                                            <span class="home-product-item__note-bag">KM</span>
+                                                            <span class="home-product__note-item-txt"></span>
+                                                            Thanh toán qua Moca tặng ngay đế sạc trị giá 320.000đ (Cho hóa đơn có tổng giá trị từ 18 Triệu) - Áp dụng từ 01/04
+                                                        </li>
+                                                        <li class="home-product__note-item">
+                                                            <span class="home-product-item__note-bag">KM</span>
+                                                            Giảm thêm tới 800.000đ khi mở thẻ tín dụng TPBank EVO
+                                                        </li>
+                                                        <li class="home-product__note-item">
+                                                            <span class="home-product-item__note-bag">KM</span>
+                                                            Trả góp qua Homepaylater giảm thêm tới 500.000đ, duyệt nhanh chỉ 30s
+                                                        </li>
+                                                        <li class="home-product__note-item">
+                                                            <span class="home-product-item__note-bag">KM</span>
+                                                            Mở thẻ tín dụng VPBank nhận ưu đãi tới 1.500.000đ
+                                                        </li>
+                                                    </ul>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <a href="" class="home-product-item-link">
+                                        <div class="home-product-item">
+                                            <div class="home-product-item__sticker">
+                                                <span><img src="./assets/css/img/hot.png" title="Sản phẩm HOT"></span>
+                                            </div>
+                                            <div class="home-product-item__img" style="background-image: url(./assets/css/img/samsung-s23.webp);"></div>
+                                            <h4 class="home-product-item__name">
+                                                Samsung Galaxy S23 - 8GB/256GB -
+                                                Chính hãng
+                                            </h4>
+                                            <div class="home-product-item__price">
+                                                <span class="home-product-item__price-current">18.430.000đ</span>
+                                                <span class="home-product-item__price-old">24.990.000đ</span>
+                                            </div>
+                                            <div class="home-product-item__note">
+                                                <span class="home-product-item__note-bag">KM</span>
+                                                <span class="home-product-item__note-title">
+                                                    Giảm tới 300.000đ khi thanh toán qua VNAY (Áp dụng từ 1/4 - 30/4)
+                                                </span>
+                                                <span class="home-product-item__note-txt">
+                                                    và 4 KM KHÁC
+                                                </span>
+                                            </div>
+                                            <div class="home-product__note-detail">
+                                                <a href="" class="home-product__note-detail-link">
+                                                    <ul class="home-product__note-list">
+                                                        <li class="home-product__note-item">
+                                                            <span class="home-product-item__note-bag">KM</span>
+                                                            <span class="home-product__note-item-txt"></span>
+                                                            Thanh toán qua Moca tặng ngay đế sạc trị giá 320.000đ (Cho hóa đơn có tổng giá trị từ 18 Triệu) - Áp dụng từ 01/04
+                                                        </li>
+                                                        <li class="home-product__note-item">
+                                                            <span class="home-product-item__note-bag">KM</span>
+                                                            Giảm thêm tới 800.000đ khi mở thẻ tín dụng TPBank EVO
+                                                        </li>
+                                                        <li class="home-product__note-item">
+                                                            <span class="home-product-item__note-bag">KM</span>
+                                                            Trả góp qua Homepaylater giảm thêm tới 500.000đ, duyệt nhanh chỉ 30s
+                                                        </li>
+                                                        <li class="home-product__note-item">
+                                                            <span class="home-product-item__note-bag">KM</span>
+                                                            Mở thẻ tín dụng VPBank nhận ưu đãi tới 1.500.000đ
+                                                        </li>
+                                                    </ul>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <a href="" class="home-product-item-link">
+                                        <div class="home-product-item">
+                                            <div class="home-product-item__sticker">
+                                                <span><img src="./assets/css/img/hot.png" title="Sản phẩm HOT"></span>
+                                            </div>
+                                            <div class="home-product-item__img" style="background-image: url(./assets/css/img/samsung-s23-ultra.webp);"></div>
+                                            <h4 class="home-product-item__name">
+                                               Samsung Galaxy S23 Ultra 8GB/256GB -
+                                                Chính hãng
+                                            </h4>
+                                            <div class="home-product-item__price">
+                                                <span class="home-product-item__price-current">22.960.000đ</span>
+                                                <span class="home-product-item__price-old">31.990.000đ</span>
+                                            </div>
+                                            <div class="home-product-item__note">
+                                                <span class="home-product-item__note-bag">KM</span>
+                                                <span class="home-product-item__note-title">
+                                                    Giảm tới 300.000đ khi thanh toán qua VNAY (Áp dụng từ 1/4 - 30/4)
+                                                </span>
+                                                <span class="home-product-item__note-txt">
+                                                    và 4 KM KHÁC
+                                                </span>
+                                            </div>
+                                            <div class="home-product__note-detail">
+                                                <a href="" class="home-product__note-detail-link">
+                                                    <ul class="home-product__note-list">
+                                                        <li class="home-product__note-item">
+                                                            <span class="home-product-item__note-bag">KM</span>
+                                                            <span class="home-product__note-item-txt"></span>
+                                                            Thanh toán qua Moca tặng ngay đế sạc trị giá 320.000đ (Cho hóa đơn có tổng giá trị từ 18 Triệu) - Áp dụng từ 01/04
+                                                        </li>
+                                                        <li class="home-product__note-item">
+                                                            <span class="home-product-item__note-bag">KM</span>
+                                                            Giảm thêm tới 800.000đ khi mở thẻ tín dụng TPBank EVO
+                                                        </li>
+                                                        <li class="home-product__note-item">
+                                                            <span class="home-product-item__note-bag">KM</span>
+                                                            Trả góp qua Homepaylater giảm thêm tới 500.000đ, duyệt nhanh chỉ 30s
+                                                        </li>
+                                                        <li class="home-product__note-item">
+                                                            <span class="home-product-item__note-bag">KM</span>
+                                                            Mở thẻ tín dụng VPBank nhận ưu đãi tới 1.500.000đ
+                                                        </li>
+                                                    </ul>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <a href="" class="home-product-item-link">
+                                        <div class="home-product-item">
+                                            <div class="home-product-item__sticker">
+                                                <span><img src="./assets/css/img/hot.png" title="Sản phẩm HOT"></span>
+                                            </div>
+                                            <div class="home-product-item__img" style="background-image: url(./assets/css/img/samsung-zfold.webp);"></div>
+                                            <h4 class="home-product-item__name">
+                                                Samsung Galaxy Z Fold4 - 256GB -
+                                                Chính hãng
+                                            </h4>
+                                            <div class="home-product-item__price">
+                                                <span class="home-product-item__price-current">32.890.000đ</span>
+                                                <span class="home-product-item__price-old">40.990.000đ</span>
+                                            </div>
+                                            <div class="home-product-item__note">
+                                                <span class="home-product-item__note-bag">KM</span>
+                                                <span class="home-product-item__note-title">
+                                                    Giảm tới 300.000đ khi thanh toán qua VNAY (Áp dụng từ 1/4 - 30/4)
+                                                </span>
+                                                <span class="home-product-item__note-txt">
+                                                    và 4 KM KHÁC
+                                                </span>
+                                            </div>
+                                            <div class="home-product__note-detail">
+                                                <a href="" class="home-product__note-detail-link">
+                                                    <ul class="home-product__note-list">
+                                                        <li class="home-product__note-item">
+                                                            <span class="home-product-item__note-bag">KM</span>
+                                                            <span class="home-product__note-item-txt"></span>
+                                                            Thanh toán qua Moca tặng ngay đế sạc trị giá 320.000đ (Cho hóa đơn có tổng giá trị từ 18 Triệu) - Áp dụng từ 01/04
+                                                        </li>
+                                                        <li class="home-product__note-item">
+                                                            <span class="home-product-item__note-bag">KM</span>
+                                                            Giảm thêm tới 800.000đ khi mở thẻ tín dụng TPBank EVO
+                                                        </li>
+                                                        <li class="home-product__note-item">
+                                                            <span class="home-product-item__note-bag">KM</span>
+                                                            Trả góp qua Homepaylater giảm thêm tới 500.000đ, duyệt nhanh chỉ 30s
+                                                        </li>
+                                                        <li class="home-product__note-item">
+                                                            <span class="home-product-item__note-bag">KM</span>
+                                                            Mở thẻ tín dụng VPBank nhận ưu đãi tới 1.500.000đ
+                                                        </li>
+                                                    </ul>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="home-product__more-product">
+                                    <a href="">Không còn sản phẩm nào..!</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="page-content">
+            <div class="grid">
+                <div class="grid__row">
+                    <div class="grid__column-12">
+                        <div class="page-content-heading">
+                            <h3>
+                                Mua iPhone chính hãng VN/A giá rẻ tại Hoàng Hà Mobile
+                            </h3>
+                        </div>
+                        <div class="page-content-txt">
+                            <p>
+                                Điện thoại thông minh đã trở thành một phần không thể thiếu trong đời sống hàng ngày của người dùng. Trong đó, những chiếc iPhone của Apple luôn là thương hiệu smartphone được yêu thích ở rất nhiều quốc gia trên toàn thế giới. Điều gì đã khiến cho Apple và iPhone luôn giữ được vị trí dẫn đầu trong thị trường này, cùng tìm hiểu dưới đây.
+                            </p>
+                        </div>
+                        <div class="page-content-title">
+                            <h3>
+                                Apple - Khác biệt để dẫn đầu xu hướng
+                            </h3>
+                        </div>
+                        <div class="page-content-txt">
+                            <p>Thương hiệu Apple được thành lập từ những năm 1976 tại Hoa Kỳ, cũng là nơi đặt trụ sở chính của công ty đến thời điểm hiện tại. Trải qua nhiều năm, với sự phát triển và thay đổi để hoàn thiện, người dùng trên toàn thế giới bắt đầu biết đến và nhớ tới thương hiệu qua logo quả táo khuyết. 
+                                Không chỉ thế, người dùng còn nhớ đến Apple bởi slogan “Think different” và những sáng tạo không ngừng trên những sản phẩm đã ra mắt. Năm 2007, chiếc iPhone đầu tiên ra đời đánh dấu bước tiến lớn trong ngành công nghiệp smartphone. Cũng kể từ đó, 
+                                <b>iPhone </b>
+                                luôn được nhớ đến với những thiết kế thời thượng, tính năng khác biệt, dẫn đầu xu hướng và vượt lên trên tất cả các nhà sản xuất khác trong ngành.
+                            </p>
+                        </div>
+                        <div class="page-content-title">
+                            <h3>
+                                Thiết kế thời thượng, khẳng định đẳng cấp
+                            </h3>
+                        </div>
+                        <div class="page-content-txt">
+                            <p>
+                                Những chiếc điện thoại iPhone của Apple luôn nổi bật với với thiết kế nguyên khối thời thượng. \
+                                Gần đây nhất từ sau dòng iPhone 12 Series, những chiếc điện thoại nhà Apple xuất hiện với kiểu dáng góc cạnh, vuông vức, giúp sản phẩm trở nên cao cấp và sang trọng hơn rất nhiều. Hầu hết các mẫu iPhone đều được hoàn thiện từ chất liệu cao cấp, mỏng nhẹ với màn hình tràn viền thời thượng. Đến dòng iPhone 14 series, Apple còn thay “tai thỏ” thành 
+                                <b>Dynamic Island </b>
+                                biến đổi linh hoạt các hình dạng. Nhà sản xuất đã sáng tạo không ngừng để mang đến cho người dùng chiếc điện thoại có thiết kế hoàn hảo nhất. iPhone cũng có các màu sắc cơ bản như đen, trắng, bạc, vàng tùy theo từng dòng máy sẽ thêm một số màu như xanh dương, hồng,... Bạn có thể chọn màu điện thoại theo sở thích và tự tin thể hiện chất riêng của mình.
+                            </p>
+                        </div>
+                        <div class="page-content-title">
+                            <h3>
+                                Hiệu năng đỉnh cao, công nghệ chụp ảnh hiện đại
+                            </h3>
+                        </div>
+                        <div class="page-content-txt">
+                            <p>
+                                Bên cạnh thiết kế đỉnh cao, iPhone của Apple còn sở hữu cấu hình mạnh mẽ. Một trong những điểm khác biệt của iPhone so với các mẫu điện thoại khác trên thị trường chính là 
+                                <b>hệ điều hành độc quyền iOS.</b> 
+                                Theo đánh giá từ người dùng, iOS đem lại sự ổn định, mượt mà và tối ưu hơn trong quá trình sử dụng. Ngoài ra, những con chip được 
+                                Apple trang bị trên iPhone cũng có hiệu năng 
+                                <b>mạnh nhất thị trường,</b> 
+                                đảm bảo xử lý các tác vụ mượt mà.
+                                Camera cũng là một ưu điểm được nhiều người dùng đánh giá cao trên những chiếc iPhone. Apple luôn sử dụng những công nghệ hàng đầu, để chiếc iPhone có thể hỗ trợ chụp ảnh đa chế độ như HDR, chân dung, xóa phông,... cũng như quay video chất lượng cao sắc nét nhất. Ngoài ra iPhone còn rất nhiều tính năng hữu ích, 
+                                chắc chắn sẽ đáp ứng nhu cầu sử dụng và làm hài lòng người dùng.
+                            </p>
+                        </div>
+                        <div class="page-content-title">
+                            <h3>
+                                Mua điện thoại iPhone chính hãng giá rẻ tại Hoàng Hà Mobile
+                            </h3>
+                        </div>
+                        <div class="page-content-txt">
+                            <p>
+                                Trong những năm tới, iPhone chắc chắn vẫn sẽ là dòng smartphone được yêu thích tại thị trường Việt Nam cũng như trên toàn thế giới. Thiết kế sang trọng, tính năng đa dạng và chất lượng chính là các yếu tố để người dùng tin tưởng sử dụng sản phẩm của Apple.
+                                Từ năm 2020, Hoàng Hà Mobile đã trở thành nhà bán lẻ ủy quyền chính thức của Apple tại Việt Nam, chuyên cung cấp các sản phẩm chính hãng VN/A với mức giá tốt nhất cùng chế độ bảo hành và rất nhiều ưu đãi.
+                                Nếu bạn đang có nhu cầu tìm mua điện thoại iPhone chính hãng VN/A hãy tham khảo tại website của Hoàng Hà Mobile và đặt hàng ngay hôm nay nhé. 
+                            </p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        
+        <div class="corevalue">
+            <div class="grid">
+                <div class="grid__row">
+                    <div class="grid__column-3">
+                        <div class="corevalue-item">
+                            <div class="corevalue-icon">
+                                <i class="ti-check-box"></i>
+                            </div>
+                            <div class="corevalue-desc">
+                                <span class="corevalue-text">Sản phẩm</span>
+                                <span class="corevalue-text-strong">Chính hãng</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid__column-3">
+                        <div class="corevalue-item">
+                            <div class="corevalue-icon">
+                                <i class="ti-car "></i>
+                            </div>
+                            <div class="corevalue-desc">
+                                <span class="corevalue-text">Sản phẩm</span>
+                                <span class="corevalue-text-strong">Chính hãng</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid__column-3">
+                        <div class="corevalue-item">
+                            <div class="corevalue-icon">
+                                <i class="ti-headphone "></i>
+                            </div>
+                            <div class="corevalue-desc">
+                                <span class="corevalue-text">Sản phẩm</span>
+                                <span class="corevalue-text-strong">Chính hãng</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid__column-3">
+                        <div class="corevalue-item">
+                            <div class="corevalue-icon">
+                                <i class="ti-reload"></i>
+                            </div>
+                            <div class="corevalue-desc">
+                                <span class="corevalue-text">Sản phẩm</span>
+                                <span class="corevalue-text-strong">Chính hãng</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="grid">
+                <div class="grid__row footer-contain">
+                    <div class="grid__column-2-4">
+                        <h3 class="footer__heading">Hỗ trợ - Dịch Vụ</h3>
+                        <ul class="footer__list">
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Mua hàng trả góp</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Hướng dẫn đặt hàng và thanh toán</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Tra cứu đơn hàng</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Chính sách bảo hành</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Phạm vi, điều khoản và gói bảo hành mở rộng</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Chính sách bảo mật</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Chính sách giải quyết khiếu nại</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Điều khoản mua bán hàng hóa</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Câu hỏi thường gặp</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="grid__column-2-4">
+                        <h3 class="footer__heading">Thông tin liên hệ</h3>
+                        <ul class="footer__list">
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Bán hàng Online</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Chăm sóc Khách Hàng</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Hỗ trợ Kỹ thuật</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Hỗ trợ Bảo hành & Sửa chữa</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Liên hệ khối văn phòng</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Trung tâm bảo hành</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="grid__column-2-4">
+                        <h3 class="footer__heading">Hệ thống 124 siêu thị trên toàn quốc</h3>
+                        <ul class="footer__list">
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Danh sách 124 siêu thị trên toàn quốc</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link-hotline">1900.2091</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="grid__column-2-4">
+                        <h3 class="footer__heading">Thanh toán miễn phí</h3>
+                        <ul class="footer__list-logo">
+                            <li class="footer-item-logo">
+                                <img src="./assets/css/img/logo-visa.png" class="footer-item-logo-img" alt="">
+                            </li>
+                            <li class="footer-item-logo">
+                                <img src="./assets/css/img/logo-master.png" class="footer-item-logo-img" alt="">
+                            </li>
+                            <li class="footer-item-logo">
+                                <img src="./assets/css/img/logo-jcb.png" class="footer-item-logo-img" alt="">
+                            </li>
+                            <li class="footer-item-logo">
+                                <img src="./assets/css/img/logo-samsungpay.png" class="footer-item-logo-img" alt="">
+                            </li>
+                            <li class="footer-item-logo">
+                                <img src="./assets/css/img/logo-atm.png" class="footer-item-logo-img" alt="">
+                            </li>
+                            <li class="footer-item-logo">
+                                <img src="./assets/css/img/logo-vnpay.png" class="footer-item-logo-img" alt="">
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="grid__column-2-4">
+                        <h3 class="footer__heading">Thanh toán miễn phí</h3>
+                        <ul class="footer__list-logo">
+                            <li class="footer-item-logo">
+                                <img src="./assets/css/img/nhattin.jpg" class="footer-item-logo-img" alt="">
+                            </li>
+                            <li class="footer-item-logo">
+                                <img src="./assets/css/img/vnpost.jpg" class="footer-item-logo-img" alt="">
+                            </li>
+                            <li class="footer-item-logo">
+                                <img src="./assets/css/img/logo-bct.png" class="footer-item-logo-img" alt="">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="grid__row footer__bottom">
+                    <p class="footer__text">
+                        © 2020. CÔNG TY CỔ PHẦN XÂY DỰNG VÀ ĐẦU TƯ THƯƠNG MẠI HOÀNG HÀ. MST: 0106713191. (Đăng ký lần đầu: 
+                        Ngày 15 tháng 12 năm 2014, Đăng ký thay đổi ngày 24/11/2022)
+                    </p>
+                    <p class="footer__text">
+                        GP số 426/GP-TTĐT do sở TTTT Hà Nội cấp ngày 22/01/2021
+                    </p>
+                    <p class="footer__text">
+                        Địa chỉ: Số 89 Đường Tam Trinh, Phường Mai Động, Quận Hoàng Mai, Thành Phố Hà Nội, Việt Nam. Điện thoại: 1900.2091. 
+                        Chịu trách nhiệm nội dung: Hoàng Ngọc Chiến.
+                    </p>
+                </div>
+                <div class="nav-social">
+                    <ul class="social__list">
+                        <li class="social__item">
+                            <a href="" class="social__item-link social__item-link-facebook">
+                                <i class="ti-facebook social__item-icon"></i>
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a href="" class="social__item-link social__item-link-youtube">
+                                <i class="ti-youtube social__item-icon"></i>
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a href="" class="social__item-link social__item-link-instagram">
+                                <i class="ti-instagram social__item-icon"></i>
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a href="" class="social__item-link social__item-link-twitter">
+                                <i class="ti-twitter fa-tiktok social__item-icon"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="back-to-top">
+                    <a href="#header" class="back-to-top__link">
+                        <i class="ti-angle-up back-to-top-icon"></i>
+                    </a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <form action="">
+        <div class="modal js-modal">
+            <div class="modal__overlay"></div>
+            <div class="modal__body js-modal-body"> 
+                <!-- Register form -->
+                <div class="auth-form">
+                    <div class="auth-form__container">
+                        <div class="auth-form__header">
+                            <h3 class="auth-form__heading">Đăng ký</h3>
+                            <span class="auth-form__switch-btn">Đăng nhập</span>
+                        </div>
+    
+                        <div class="auth-form__form">
+                            <div class="auth-form__group">
+                                <input id="email" type="text" class="auth-form__input" placeholder="Email của bạn">
+                                <small></small>
+                            </div>
+                            <div class="auth-form__group">
+                                <input id="password" type="password" class="auth-form__input" placeholder="Mật khẩu của bạn">
+                                <small></small>
+                            </div>
+                            <div class="auth-form__group">
+                                <input id="confrim-password" type="password" class="auth-form__input" placeholder="Nhập lại mật khẩu">
+                                <small></small>
+                            </div>
+                        </div>
+    
+                        <div class="auth-form__aside">
+                            <p class="auth-form__policy-text">
+                                Bằng việc đăng kí, bạn đã đồng ý với chúng tôi về
+                                <a href="" class="auth-form__text-link">Điều khoản dịch vụ</a> &
+                                <a href="" class="auth-form__text-link">Chính sách bảo mật</a>
+                            </p>
+                        </div>
+    
+                        <div class="auth-form__controls">
+                            <button class="btn auth-form__controls-back btn--normal js-modal-close">TRỞ LẠI</button>
+                            <button class="btn btn--primary">ĐĂNG KÝ</button>
+                        </div>
+                    </div>
+    
+                    <div class="auth-form__socials">
+                        <a href="" class="auth-form__socials--facebook btn  btn--width-icon">
+                            <i class="auth-form__socials-icon fa-brands fa-square-facebook"></i>
+                            <span class="auth-form__socials-title">
+                                Kết nối với Facebook
+                            </span>
+                        </a>
+    
+                        <a href="" class="auth-form__socials--google btn  btn--width-icon">
+                            <i class="auth-form__socials-icon fa-brands fa-google"></i>
+                            <span class="auth-form__socials-title">
+                                Kết nối với Google
+                            </span>
+                        </a>
+                    </div>
+                </div>     
+            </div>  
+        </div>
+    </form> 
+
+    <!-- <form action="">
+        <div class="modal js-modal">
+            <div class="modal__overlay"></div>
+            <div class="modal__body js-modal-body">
+                <!-- Login form  -->
+                <!-- <div class="auth-form">
+                    <div class="auth-form__container">
+                        <div class="auth-form__header">
+                            <h3 class="auth-form__heading">Đăng nhập</h3>
+                            <span class="auth-form__switch-btn">Đăng ký</span>
+                        </div>
+    
+                        <div class="auth-form__form">
+                            <div class="auth-form__group">
+                                <input type="text" class="auth-form__input" placeholder="Email của bạn">
+                            </div>
+                            <div class="auth-form__group">
+                                <input type="password" class="auth-form__input" placeholder="Mật khẩu của bạn">
+                            </div>
+                        </div>
+    
+                        <div class="auth-form__aside">
+                            <div class="auth-form__help">
+                                <a href="" class="auth-form__help-link auth-form__help-forgot">Quên mật khẩu</a>
+                                <span class="auth-form__help-separate"></span>
+                                <a href="" class="auth-form__help-link">Cần trợ giúp?</a>
+                            </div>
+                        </div>
+    
+                        <div class="auth-form__controls">
+                            <button class="btn auth-form__controls-back btn--normal js-modal-close">TRỞ LẠI</button>
+                            <button class="btn btn--primary">ĐĂNG NHẬP</button>
+                        </div>
+                    </div>
+    
+                    <div class="auth-form__socials">
+                        <a href="" class="auth-form__socials--facebook btn  btn--width-icon">
+                            <i class="auth-form__socials-icon fa-brands fa-square-facebook"></i>
+                            <span class="auth-form__socials-title">
+                                Kết nối với Facebook
+                            </span>
+                        </a>
+    
+                        <a href="" class="auth-form__socials--google btn  btn--width-icon">
+                            <i class="auth-form__socials-icon fa-brands fa-google"></i>
+                            <span class="auth-form__socials-title">
+                                Kết nối với Google
+                            </span>
+                        </a>
+                    </div>
+                </div>     
+            </div>  
+        </div> -->
+    <!-- </form> -->
+
+    <script src="main.js"></script> 
+</body>
+</html>
